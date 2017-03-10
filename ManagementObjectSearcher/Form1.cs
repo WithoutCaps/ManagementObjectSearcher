@@ -30,7 +30,8 @@ namespace ManagementObjectSearcher
                                                  property.Name +
                                                  (arrayFormat_CB.Checked ? (namesOnly_CB.Checked ? "" : ": " + property.Value) + "\"," : (namesOnly_CB.Checked ? "" : ": " + property.Value)) +
                                                        (newLine_CB.Checked ? Environment.NewLine : "")
-                                                       ); // If you are reading this line, DONT!! If you do- you may decide to kill yourself... But now when i think about it, u probobly dont have a life since u are reading it....
+                                                       ); // If you are reading this method/line, DONT!! If you do - you may decide that the best couse of action is suicide... 
+                                                       //But now when i think about it, u probobly alreay dont have a life since u are reading it....
 
                         
             }
